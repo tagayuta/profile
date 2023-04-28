@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>バスケ動画</title>
+</head>
+<body>
+    <div style="width: 1000px; margin: auto;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/yl8wVOtYe3U" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <hr>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/yzBff9no_pQ" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <br>
+    <br>
+    <a href="my profile.html" style="font-size: 2em;">戻る</a>
+    </div>
+
+    <h2>アンケート</h2>
+    <form action="" method="post">
+        <table border="1">
+            <tr>
+                <th>■お名前</th>
+                <td><input type="text" name="name" value="" placeholder="例）山田 太郎"></td>
+                
+            </tr>
+                <th>■パスワード</th>
+                <td><input type="password" name="pass" value=""></td>
+            <tr>
+                
+            </tr>
+
+            <tr>
+                <th>■興味のある分野</th>
+                <td>
+                    <label><input type="checkbox" name="field" value="1">IT</label>
+                    <label><input type="checkbox" name="field" value="2">不動産</label>
+                    <label><input type="checkbox" name="field" value="3">外資</label>
+                </td>
+            </tr>
+            
+            <tr>
+                <th>■性別</th>
+                <td>
+                    <input type="radio" name="gender" value="men">男性
+                    <input type="radio" name="gender" value="women">女性
+                    <input type="radio" name="gender" value="other">その他
+                </td>
+            </tr>
+
+            <tr>
+                <th>■日付</th>
+                <td><input type="date" name="date1" value=""></td>
+            </tr>
+
+            <tr>
+                <th>プルダウンメニュー</th>
+                <td>
+                    <select name="coffee">
+                        <optgroup label="中南米">
+                            <option value="c1">ブルーマウンテン</option>
+                            <option value="c2">コロンビア</option>
+                            <option value="c3">ブラジル・サントス</option>
+                        </optgroup>
+
+                        <optgroup label="アフリカ">
+                            <option value="c4">モカ</option>
+                            <option value="c5">キリマンジャロ</option>
+                        </optgroup>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <th>■その他</th>
+                <td><textarea name="text1" row="30" cols="50" placeholder="ご記入ください"></textarea></td>
+            </tr>
+        </table>
+        <th><input type="submit" name="submit" value="送信"></th>
+    </form>
+</body>
+</html>
